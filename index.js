@@ -42,7 +42,7 @@ const everyCharIsUnique = string => (
     // `index` will indicate where this occurrence of `char`
     // appears in `array`. `array.indexOf(char)` checks where
     // the first occurrence of `char` appears. If the values are
-    // no the same, this is the second occurrence of `char`
+    // not the same, this is the second occurrence of `char`.
     array.indexOf(char) === index)
   )
 )
