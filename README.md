@@ -1,5 +1,9 @@
 # Validating a string of 4 unique digits with RegExp
 
+> Before running `node index.js`, you will need to run `npm i`
+> to install the `prompt-sync` module, which is used to interact
+> with the user through the Terminal.
+
 When playing a game of Bulls and Cows, the user is asked to enter a string of 4 unique digits. The aim is to guess which 4 digits the other player (computer) has secretly selected.
 For example:
 
