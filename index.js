@@ -73,7 +73,6 @@ const containsDupe = /(?<dupe>.).*\k<dupe>/
   console.log("\nTesting 1 million positive and negative results")
   console.log("———————————————————————————————————————————————")
  
-
   const t0 = performance.now();
   for ( let ii = 0; ii < times; ii += 1 ) {
     duplicateAhead.test("no duplicate")
@@ -89,8 +88,6 @@ const containsDupe = /(?<dupe>.).*\k<dupe>/
   }
   const t3 = performance.now();
   console.log(`containsDupe   took ${t3 -t2} ms`);
-  
-
 })()
 
 const validateInput = string => {
