@@ -1,0 +1,11 @@
+{
+  "name": "validation-with-regex",
+  "version": "1.0.0",
+  "description": "Validate string of 4 unique digits with RegExp",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
