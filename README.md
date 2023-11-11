@@ -25,3 +25,5 @@ const validateInput = string => {
 ```
 
 See `index.js` for explanations on how these Regular Expressions work.
+
+**NOTE: Regular Expressions are *not* the fastest way to solve this particular issue. See the `everyCharIsUnique()` function, which uses the [every() Array method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every) to detect duplicate characters. It works about 30$ faster than a Regular Expression (but it takes more lines of code).**
