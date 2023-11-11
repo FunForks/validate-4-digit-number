@@ -8,3 +8,16 @@ For example:
 - `1234` on the other hand is an acceptable value for the secret number, since each digit is unique
 
 The `index.js` script in this repository shows you how to use Regular Expressions to check if input from the Terminal window is a string of 4 unique digits.
+
+Here's the validation code:
+
+```javascript
+const is4DigitString = /^\d{4}$/
+const containsDupe = /(?<dupe>.).*\k<dupe>/
+
+const validateInput = string => {
+  return is4DigitString.test(string) && !containsDupe.test(string)
+}
+```
+
+See `index.js` for explanations on how these Regular Expressions work.
